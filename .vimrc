@@ -26,6 +26,10 @@ map <C-n> :NERDTreeToggle<CR>
 " Mike Land Original Mappings
 inoremap jk <esc>
 
+" paste from 0 register Normal Mode and Visual Mode
+nnoremap <space>v "0p
+vnoremap <space>v dh"0p
+
 " shortcut to home row global marks
 nnoremap <space>a `A
 nnoremap <space>s `S

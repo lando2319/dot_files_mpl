@@ -11,9 +11,6 @@
 " set options
 set hlsearch
 
-" remap esc
-inoremap jk <esc>
-
 " Go to next tab, Go to previous tab
 nnoremap gT :xccmd selectPreviousTab<CR>
 nnoremap gt :xccmd selectNextTab<CR>
@@ -34,6 +31,9 @@ vnoremap S[ c[]<esc>hp
 " Mike Land Original Mappings
 " puts println(
 nnoremap <space>c iprintln()<esc>==$i
+
+" remap esc
+inoremap jk <esc>
 
 " paste from 0 register Normal Mode and Visual Mode
 nnoremap <space>v "0p
@@ -57,7 +57,3 @@ nnoremap <space>j 10j
 nnoremap <space>k 10k 
 vnoremap <space>j 10j
 vnoremap <space>k 10k
-
-" delete next / previous blank line, stays in current position (utilizing p register)
-" noremap <space>dj mp/^$<CR>dd`p
-" noremap <space>dk mp?^$<CR>dd`p
