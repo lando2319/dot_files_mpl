@@ -1,21 +1,25 @@
 " Mike Land .vimrc file
-set nocompatible              " be iMproved, required
-filetype off                  " required
+set nocompatible              " required by Pathogen
+filetype off                  " required by Pathogen
 
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 Plugin 'Valloric/YouCompleteMe'
-call vundle#end()            " required
+call vundle#end()
 filetype plugin indent on
-
-" set preferences
-set number
 
 " sets up pathogen
 execute pathogen#infect()
 syntax on
 filetype plugin indent on
+
+" YouCompleteMe Next/Previous Suggestion
+let g:ycm_key_list_select_completion = ['<c-j>']
+let g:ycm_key_list_previous_completion = ['<c-k>']
+
+" set preferences
+set number
 
 " Gitgutter sidebar set to clear 
 highlight clear SignColumn
