@@ -56,7 +56,7 @@ nnoremap <space>h :pi<CR>
 nnoremap <space>j 10j
 nnoremap <space>k 10k 
 vnoremap <space>j 10j
-vnoremap <space>k 10K
+vnoremap <space>k 10k
 
 " delete next / previous blank line, stays in current position (utilizing p register)
 " noremap <space>dj mp/^$<CR>dd`p

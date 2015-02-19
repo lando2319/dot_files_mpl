@@ -1,10 +1,30 @@
+" Mike Land .vimrc file
+
+" set preferences
+set number
+
+" sets up pathogen
 execute pathogen#infect()
 syntax on
 filetype plugin indent on
 
+" Gitgutter sidebar set to clear 
 highlight clear SignColumn
 
-set number
-
-inoremap jk <esc>
+" map nerdtree toggle
 map <C-n> :NERDTreeToggle<CR>
+
+" Mike Land Original Mappings
+inoremap jk <esc>
+
+" shortcut to home row global marks
+nnoremap <space>a `A
+nnoremap <space>s `S
+nnoremap <space>d `D
+nnoremap <space>f `F
+
+" jump 10 Lines Up/Down, Normal and Visual Mode
+nnoremap <space>j 10j
+nnoremap <space>k 10k
+vnoremap <space>j 10j
+vnoremap <space>k 10k
