@@ -1,1 +1,63 @@
-/Users/mikeland/.xvim/.xvimrc
+" Mike Land .xvimrc file for XVIM
+" Mappings done through XCode Saved Under 'VIM'
+" <C-M> Show Completion List (set it also as move down list as well)
+" <C-J> Move Down Completion List (AutoSuggest)
+" <C-K> Move Up Completion List (AutoSuggest)
+" <C-P> Open Quickly (to emulate the VIM plugin ControlP)
+" <C-N> Show/Hide Project Manager (to emulate nerdtree, use Ctrl-Option-` to move focus)
+
+" Note <C-v> can be used to map ctrl key
+
+" set options
+set hlsearch
+
+" remap esc
+inoremap jk <esc>
+
+" Go to next tab, Go to previous tab
+nnoremap gT :xccmd selectPreviousTab<CR>
+nnoremap gt :xccmd selectNextTab<CR>
+
+" Comment out lines selected, Comment out current line
+vnoremap gcc :xccmd commentAndUncommentCurrentLines<CR> 
+nnoremap gcc :xccmd commentAndUncommentCurrentLines<CR> 
+
+" Comment out current and next line, Comment out current and previous line
+nnoremap gcj :xccmd commentAndUncommentCurrentLines<CR>j:xccmd commentAndUncommentCurrentLines<CR>
+nnoremap gck :xccmd commentAndUncommentCurrentLines<CR>k:xccmd commentAndUncommentCurrentLines<CR>
+
+" Mapping to emulate surround.vim
+vnoremap S" c""<esc>hp
+vnoremap S( c()<esc>hp
+vnoremap S[ c[]<esc>hp
+
+" Mike Land Original Mappings
+" puts println(
+nnoremap <space>c iprintln()<esc>==$i
+
+" paste from 0 register Normal Mode and Visual Mode
+nnoremap <space>v "0p
+vnoremap <space>v dh"0p
+
+" set up 2 blank lines above and below then current line and go to insert mode
+nnoremap <space>o o<esc>yy3po
+
+" shortcut to Home Row Global Marks
+nnoremap <space>a `A
+nnoremap <space>s `S
+nnoremap <space>d `D
+nnoremap <space>f `F
+
+" next issue, previous issue
+nnoremap <space>l :ni<CR>
+nnoremap <space>h :pi<CR>
+
+" jump 10 Lines Up/Down, Normal and Visual Mode
+nnoremap <space>j 10j
+nnoremap <space>k 10k 
+vnoremap <space>j 10j
+vnoremap <space>k 10K
+
+" delete next / previous blank line, stays in current position (utilizing p register)
+" noremap <space>dj mp/^$<CR>dd`p
+" noremap <space>dk mp?^$<CR>dd`p
