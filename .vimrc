@@ -20,7 +20,6 @@ let g:ycm_key_list_previous_completion = ['<c-k>']
 
 " set preferences
 set number
-set mouse=a "disable mouse
 
 " Gitgutter sidebar set to clear 
 highlight clear SignColumn
