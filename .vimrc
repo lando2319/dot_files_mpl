@@ -24,8 +24,11 @@ set number
 " Gitgutter sidebar set to clear 
 highlight clear SignColumn
 
-" map nerdtree toggle
+" map nerdtree toggle 
 map <C-n> :NERDTreeToggle<CR>
+
+" Close on open
+let NERDTreeQuitOnOpen = 1
 
 " Mike Land Original Mappings
 inoremap jk <esc>
