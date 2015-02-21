@@ -20,6 +20,8 @@ let g:ycm_key_list_previous_completion = ['<c-k>']
 
 " set preferences
 set number
+set tabstop=4 shiftwidth=4 expandtab
+
 
 " Gitgutter sidebar set to clear 
 highlight clear SignColumn
@@ -49,7 +51,8 @@ nnoremap <space>k 10k
 vnoremap <space>j 10j
 vnoremap <space>k 10k
 
-" Vimscript for making commits. From Vim run :call Git("commit message")
+" Vimscript 
 function Git(commitMessage)
-	!git commit -am commitMessage
+	echom a:commitMessage
+	" !git commit -am .a:commitMessage.
 endfunction
