@@ -30,7 +30,7 @@ map <C-n> :NERDTreeToggle<CR>
 " Close on open
 let NERDTreeQuitOnOpen = 1
 
-" Mike Land Original Mappings
+" --------- Mike Land Originals --------- 
 inoremap jk <esc>
 
 " paste from 0 register Normal Mode and Visual Mode
@@ -48,3 +48,8 @@ nnoremap <space>j 10j
 nnoremap <space>k 10k
 vnoremap <space>j 10j
 vnoremap <space>k 10k
+
+" Vimscript for making commits. From Vim run :call Git("commit message")
+function Git(commitMessage)
+	!git commit -am \"commitMessage\"
+endfunction
