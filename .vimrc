@@ -51,5 +51,5 @@ vnoremap <space>k 10k
 
 " Vimscript for making commits. From Vim run :call Git("commit message")
 function Git(commitMessage)
-	!git commit -am \"commitMessage\"
+	!git commit -am commitMessage
 endfunction
