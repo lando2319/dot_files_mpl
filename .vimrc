@@ -21,6 +21,7 @@ let g:ycm_key_list_previous_completion = ['<c-k>']
 " set preferences
 set number
 set tabstop=4 shiftwidth=4 expandtab
+set backspace=indent,eol,start
 
 
 " Gitgutter sidebar set to clear 
@@ -56,3 +57,5 @@ function Git(commitMessage)
 	echom a:commitMessage
 	" !git commit -am .a:commitMessage.
 endfunction
+
+
