@@ -52,10 +52,4 @@ nnoremap <space>k 10k
 vnoremap <space>j 10j
 vnoremap <space>k 10k
 
-" Vimscript 
-function Git(commitMessage)
-	echom a:commitMessage
-	" !git commit -am .a:commitMessage.
-endfunction
-
 
