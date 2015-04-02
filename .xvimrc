@@ -4,7 +4,6 @@
 " <C-J> Move Down Completion List (AutoSuggest)
 " <C-K> Move Up Completion List (AutoSuggest)
 " <C-P> Open Quickly (to emulate the VIM plugin ControlP)
-" <C-N> Show/Hide Project Manager (to emulate nerdtree, use Ctrl-Option-` to move focus)
 
 " Note <C-v> can be used to map ctrl key
 
@@ -22,6 +21,9 @@ nnoremap gcc :xccmd commentAndUncommentCurrentLines<CR>
 " Comment out current and next line, Comment out current and previous line
 nnoremap gcj :xccmd commentAndUncommentCurrentLines<CR>j:xccmd commentAndUncommentCurrentLines<CR>
 nnoremap gck :xccmd commentAndUncommentCurrentLines<CR>k:xccmd commentAndUncommentCurrentLines<CR>
+
+" Show hide Navigator
+nnoremap <space>n :xccmd toggleNavigatorsVisibility<CR>
 
 " Mapping to emulate surround.vim
 vnoremap S" c""<esc>hp
