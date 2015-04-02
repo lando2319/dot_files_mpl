@@ -28,7 +28,7 @@ set backspace=indent,eol,start
 highlight clear SignColumn
 
 " map nerdtree toggle 
-map <C-n> :NERDTreeToggle<CR>
+map <space>n :NERDTreeToggle<CR>
 
 " Close on open
 let NERDTreeQuitOnOpen = 1
