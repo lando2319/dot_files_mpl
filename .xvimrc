@@ -38,11 +38,11 @@ nnoremap <space>c iprintln()<esc>==$i
 inoremap jk <esc>
 
 " paste from 0 register Normal Mode and Visual Mode
-nnoremap <space>v "0p
-vnoremap <space>v dh"0p
+nnoremap <space>p "0p
+vnoremap <space>p dh"0p
 
 " set up 2 blank lines above and below then current line and go to insert mode
-nnoremap <space>o o<esc>yy3po
+" nnoremap <space>o o<esc>yy3po
 
 " shortcut to Home Row Global Marks
 nnoremap <space>a `A
@@ -65,6 +65,4 @@ vnoremap <space>j 10j
 vnoremap <space>k 10k
 
 " testing
-
 " map ,f Ifunc A(){}ik$h
-
