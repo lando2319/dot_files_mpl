@@ -51,7 +51,7 @@ nnoremap <space>d `D
 nnoremap <space>f `F
 
 " shortcut to save to and paste from T and R
-vnoremap <space>t "Td
+vnoremap <space>t "Ty
 nnoremap <space>T "tp
 
 " next issue, previous issue
