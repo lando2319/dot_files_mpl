@@ -50,6 +50,10 @@ nnoremap <space>s `S
 nnoremap <space>d `D
 nnoremap <space>f `F
 
+" shortcut to save to and paste from T and R
+vnoremap <space>t "Td
+nnoremap <space>T "tp
+
 " next issue, previous issue
 nnoremap <space>l :ni<CR>
 nnoremap <space>h :pi<CR>
@@ -59,3 +63,8 @@ nnoremap <space>j 10j
 nnoremap <space>k 10k 
 vnoremap <space>j 10j
 vnoremap <space>k 10k
+
+" testing
+
+" map ,f Ifunc A(){}ik$h
+
