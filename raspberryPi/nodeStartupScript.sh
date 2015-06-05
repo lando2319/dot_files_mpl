@@ -1,17 +1,17 @@
 ### BEGIN INIT INFO
-# Provides:              <name-of-script>
+# Provides:             nodeStartupScript
 # Required-Start:    $remote_fs $named $syslog
 # Required-Stop:     $remote_fs $named $syslog
 # Default-Start:     2 3 4 5
 # Default-Stop:      0 1 6
-# Short-Description: <Short Description>
-# Description:       <Longer Description>
+# Short-Description: Starts the node server.
+# Description:       Starts the node server. 
 ### END INIT INFO
 
 #!/bin/bash
 
 PATH=$PATH:/sbin:/usr/sbin:/bin:/usr/bin:/usr/local/bin
-NODESCRIPT=<Path to Script>
+NODESCRIPT=/home/pi/newDayPi/HN_Vimmy_Bot/
 
 case "$1" in
   start)
@@ -22,7 +22,7 @@ case "$1" in
     ;;
   *)
 
-  echo "Usage: /etc/init.d/<name-of-script> {start|stop}"
+  echo "Usage: /etc/init.d/nodeStartupScript.sh {start|stop}"
   exit 1
   ;;
 esac
