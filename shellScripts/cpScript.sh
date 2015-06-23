@@ -1,3 +1,6 @@
+# to run:
+# $ sh fileName.sh 
+
 # cp ~/newDay/timeKillAppAssets/vault\ wheels/handle0001.png ~/newDay/timeKillAppAssets/vault\ wheels/smallHandle0001.png
 # cp ~/newDay/timeKillAppAssets/vault\ wheels/handle0001.png ~/newDay/timeKillAppAssets/vault\ wheels/largeHandle0001.png
 # mv ~/newDay/timeKillAppAssets/vault\ wheels/handle0001.png ~/newDay/timeKillAppAssets/vault\ wheels/mediumHandle0001.png
