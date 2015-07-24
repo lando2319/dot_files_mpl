@@ -11,6 +11,6 @@ fi
 alias serverActual="ruby -r webrick -e \"s = WEBrick::HTTPServer.new(:Port => 8000, :DocumentRoot => Dir.pwd); trap('INT') { s.shutdown }; s.start\""
 
 # short cut for git commands
-alias gm="git commit -am \""
+alias gm="git add -A && git commit -m \""
 alias gs="git status"
-alias ga="git add -A"
+alias gd="git diff"
