@@ -22,7 +22,7 @@ let g:ycm_key_list_previous_completion = ['<c-k>']
 set number
 set tabstop=4 shiftwidth=4 expandtab
 set backspace=indent,eol,start
-
+set hlsearch
 
 " Gitgutter sidebar set to clear 
 highlight clear SignColumn
