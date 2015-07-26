@@ -1,4 +1,5 @@
 " Mike Land .vimrc file
+" Added 'source ~/dot_files_mpl/.vimrc' to .vimrc
 set nocompatible              " required by Pathogen
 filetype off                  " required by Pathogen
 
