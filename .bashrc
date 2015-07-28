@@ -1,6 +1,8 @@
 # shared .bashrc by Mike Land for Chromebook and Mac
 # added "source ~/dot_files_mpl/.bashrc" to ~/.bashrc on chromebook and ~/.bash_profile on Mac
 
+#Shell Script for creating repos on Github
+source ./shellScripts/createRepo.sh
 
 # Add Bash Script for AutoComplete: $ curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash -o ~/.git-completion.bash
 if [ -f ~/.git-completion.bash ]; then
