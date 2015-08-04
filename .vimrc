@@ -59,3 +59,6 @@ nnoremap <space>p :set paste!<CR>
 " from insert <c-f> and <c-b> move the cursor forward and backwards
 inoremap <c-f> <c-o>l
 inoremap <c-b> <c-o>h
+
+" toggle spell check
+nnoremap <space>s :set spell!<CR>
