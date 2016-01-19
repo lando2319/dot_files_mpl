@@ -41,9 +41,6 @@ inoremap jk <esc>
 nnoremap <space>p "0p
 vnoremap <space>p dh"0p
 
-" set up 2 blank lines above and below then current line and go to insert mode
-" nnoremap <space>o o<esc>yy3po
-
 " shortcut to Home Row Global Marks
 nnoremap <space>a `A
 nnoremap <space>s `S
@@ -64,5 +61,5 @@ nnoremap <space>k 10k
 vnoremap <space>j 10j
 vnoremap <space>k 10k
 
-" testing
-" map ,f Ifunc A(){}ik$h
+" no highlight on search
+nnoremap <space>/ :nohl<CR>
