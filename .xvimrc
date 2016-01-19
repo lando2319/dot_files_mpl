@@ -3,6 +3,8 @@
 " <C-M> Show Completion List (set it also as move down list as well)
 " <C-J> Move Down Completion List (AutoSuggest)
 " <C-K> Move Up Completion List (AutoSuggest)
+" <S-down> Move Down Open Wuickly List (AutoSuggest)
+" <S-up> Move Up Open Quickly List (AutoSuggest)
 " <C-P> Open Quickly (to emulate the VIM plugin ControlP)
 
 " Note <C-v> can be used to map ctrl key
@@ -25,14 +27,11 @@ nnoremap gck :xccmd commentAndUncommentCurrentLines<CR>k:xccmd commentAndUncomme
 " Show hide Navigator
 nnoremap <space>n :xccmd toggleNavigatorsVisibility<CR>
 
+" Mike Land Original Mappings
 " Mapping to emulate surround.vim
 vnoremap S" c""<esc>hp
 vnoremap S( c()<esc>hp
 vnoremap S[ c[]<esc>hp
-
-" Mike Land Original Mappings
-" puts println(
-nnoremap <space>c iprintln()<esc>==$i
 
 " remap esc
 inoremap jk <esc>
