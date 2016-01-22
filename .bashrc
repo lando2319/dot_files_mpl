@@ -10,9 +10,11 @@ fi
 alias serverActual="ruby -r webrick -e \"s = WEBrick::HTTPServer.new(:Port => 8000, :DocumentRoot => Dir.pwd); trap('INT') { s.shutdown }; s.start\""
 
 # shortcut for git commands
-alias gm="git add -A && git commit -m \""
 alias gs="git status"
 alias gd="git diff"
+
+# git script to show status and prompt to commit everything
+alias gm="sh ~/dot_files_mpl/shellScripts/gitCommitScript.sh"
 
 # shortcut to open last created file in vim
 alias vl="vim \`ls -tr | tail -1\`"
