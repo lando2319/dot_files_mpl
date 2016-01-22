@@ -38,8 +38,8 @@ let NERDTreeQuitOnOpen = 1
 inoremap jk <esc>
 
 " paste from 0 register Normal Mode and Visual Mode
-nnoremap <space>v "0p
-vnoremap <space>v dh"0p
+nnoremap <space>p "0p
+vnoremap <space>p dh"0p
 
 " shortcut to home row global marks
 nnoremap <space>a `A
@@ -54,7 +54,7 @@ vnoremap <space>j 10j
 vnoremap <space>k 10k
 
 " toggle set paste
-nnoremap <space>p :set paste!<CR>
+nnoremap <space>sp :set paste!<CR>
 
 " from insert <c-f> and <c-b> move the cursor forward and backwards
 inoremap <c-f> <c-o>l
