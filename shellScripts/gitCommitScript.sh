@@ -2,17 +2,15 @@
 
 git status
 echo
-read -p "###### Press ENTER / SPACE to commit everything " -n 1 KEY
+read -p "###### Enter Commit Message: " KEY
 if [[ "$KEY" == "" ]]
 then
     echo
-    read -p "###### Enter Commit Message: " gitMessage
-    git add -A; 
-    git commit -m "$gitMessage";
-    echo
-    echo "###### Committed: \"$gitMessage\"";
-else
-    echo
     echo "###### NOT COMMITTED";
     echo
+else
+    git add -A; 
+    git commit -m "$KEY";
+    echo
+    echo "###### Committed: \"$KEY\"";
 fi
