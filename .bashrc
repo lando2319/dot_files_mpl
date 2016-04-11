@@ -20,4 +20,4 @@ alias gm="sh ~/dot_files_mpl/shellScripts/gitCommitScript.sh"
 alias vl="vim \`ls -tr | tail -1\`"
 
 # clear out DerivedData, logs from XCode testing
-alias clearLogsActual="rm ~/Library/Developer/Xcode/DerivedData/*"
+alias clearLogsActual="rm -rf ~/Library/Developer/Xcode/DerivedData/*"
