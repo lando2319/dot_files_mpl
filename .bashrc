@@ -19,5 +19,5 @@ alias gm="sh ~/dot_files_mpl/shellScripts/gitCommitScript.sh"
 # shortcut to open last created file in vim
 alias vl="vim \`ls -tr | tail -1\`"
 
-# cd to logs
-alias swiftLogs="cd /var/folders/b6/8h2r1l1x2wj9v15_6m5j0l040000gn/T/com.apple.dt.XCTest-status/"
+# clear out DerivedData, logs from XCode testing
+alias clearLogsActual="rm ~/Library/Developer/Xcode/DerivedData/*"
