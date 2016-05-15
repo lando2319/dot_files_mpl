@@ -19,20 +19,4 @@ map <space>n :NERDTreeToggle<CR>
 let NERDTreeQuitOnOpen = 1
 
 " --------- Mike Land Originals --------- 
-inoremap jk <esc>
-
-" paste from 0 register Normal Mode and Visual Mode
-nnoremap <space>v "0p
-vnoremap <space>v dh"0p
-
-" shortcut to home row global marks
-nnoremap <space>a `A
-nnoremap <space>s `S
-nnoremap <space>d `D
-nnoremap <space>f `F
-
-" jump 10 Lines Up/Down, Normal and Visual Mode
-nnoremap <space>j 10j
-nnoremap <space>k 10k
-vnoremap <space>j 10j
-vnoremap <space>k 10k
+source ~/dot_files_mpl/originalVimMappings/.vimrc
