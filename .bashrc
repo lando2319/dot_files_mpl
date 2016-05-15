@@ -21,3 +21,6 @@ alias vl="vim \`ls -tr | tail -1\`"
 
 # clear out DerivedData, logs from XCode testing
 alias clearLogsActual="rm -rf -v ~/Library/Developer/Xcode/DerivedData/*"
+
+# removes all .swp files from git repo
+alias removeSwpFiles="git ls-files | grep '\.swp$' | xargs git rm"
