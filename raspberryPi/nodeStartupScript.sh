@@ -11,7 +11,7 @@
 #!/bin/bash
 
 PATH=$PATH:/sbin:/usr/sbin:/bin:/usr/bin:/usr/local/bin
-NODESCRIPT=/home/pi/newDayPi/HN_Vimmy_Bot/
+NODESCRIPT=/home/pi/newDayPi/HN_Vimmy_Bot
 
 case "$1" in
   start)
