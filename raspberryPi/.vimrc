@@ -2,6 +2,8 @@
 " Added 'source ~/dot_files_mpl/.vimrc' to .vimrc
 " set preferences
 syntax on
+filetype plugin indent on
+
 set number
 set tabstop=4 shiftwidth=4 expandtab
 set backspace=indent,eol,start
