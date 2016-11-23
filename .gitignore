@@ -1,3 +1,4 @@
 *.swp
 /creds
+.DS_Store
 

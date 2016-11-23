@@ -17,12 +17,13 @@ nnoremap gT :xccmd selectPreviousTab<CR>
 nnoremap gt :xccmd selectNextTab<CR>
 
 " Comment out lines selected, Comment out current line
-vnoremap gcc :xccmd commentAndUncommentCurrentLines<CR> 
-nnoremap gcc :xccmd commentAndUncommentCurrentLines<CR> 
+vnoremap gcc :xcmenucmd Comment Selection<CR> 
+nnoremap gcc :xcmenucmd Comment Selection<CR> 
 
 " Comment out current and next line, Comment out current and previous line
-nnoremap gcj :xccmd commentAndUncommentCurrentLines<CR>j:xccmd commentAndUncommentCurrentLines<CR>
-nnoremap gck :xccmd commentAndUncommentCurrentLines<CR>k:xccmd commentAndUncommentCurrentLines<CR>
+"
+nnoremap gcj jVk:xcmenucmd Comment Selection<CR>
+nnoremap gck kVj:xcmenucmd Comment Selection<CR>
 
 " Show hide Navigator
 nnoremap <space>n :xccmd toggleNavigatorsVisibility<CR>
