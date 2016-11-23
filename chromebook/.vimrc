@@ -7,6 +7,12 @@ execute pathogen#infect()
 syntax on
 filetype plugin indent on
 
+set omnifunc=syntaxcomplete#Complete
+
+" Move up and down in autocomplete with <c-j> and <c-k>
+inoremap <expr> <c-j> ("\<C-n>")
+inoremap <expr> <c-k> ("\<C-p>")
+
 " set preferences
 set number
 set tabstop=4 shiftwidth=4 expandtab
