@@ -29,3 +29,11 @@ inoremap <c-b> <c-o>h
 
 " toggle spell check
 nnoremap <space>s :set spell!<CR>
+
+" Nerdtree CMD, allows for traveling witout saving buffer, avoiding the force split, :wa to then save all buffers
+nnoremap <space>e :buffer! NERD_tree_1<CR>
+
+" Adds return brackets
+inoremap {<cr> {<cr>}<c-o>O
+inoremap [<cr> [<cr>]<c-o>O
+inoremap (<cr> (<cr>)<c-o>O

@@ -47,10 +47,6 @@ nnoremap <space>s `S
 nnoremap <space>d `D
 nnoremap <space>f `F
 
-" shortcut to save to and paste from T and R
-vnoremap <space>t "Ty
-nnoremap <space>T "tp
-
 " next issue, previous issue
 nnoremap <space>l :ni<CR>
 nnoremap <space>h :pi<CR>
@@ -63,3 +59,6 @@ vnoremap <space>k 10k
 
 " no highlight on search
 nnoremap <space>/ :nohl<CR>
+
+" add bloak line below
+nnoremap <space>o o<ESC>
