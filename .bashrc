@@ -24,3 +24,6 @@ alias clearLogsActual="rm -rf -v ~/Library/Developer/Xcode/DerivedData/*"
 
 # removes all .swp files from git repo
 alias removeSwpFiles="git ls-files | grep '\.swp$' | xargs git rm"
+
+# show last 5 files
+alias lst="ls -1t | head -5"
