@@ -29,3 +29,9 @@ inoremap <c-b> <c-o>h
 
 " toggle spell check
 nnoremap <space>s :set spell!<CR>
+
+" window nav
+nnoremap <space>wj :wincmd j<CR>
+nnoremap <space>wk :wincmd k<CR>
+nnoremap <space>wh :wincmd h<CR>
+nnoremap <space>wl :wincmd l<CR>
