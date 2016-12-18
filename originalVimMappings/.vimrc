@@ -6,7 +6,6 @@ inoremap jk <esc>
 
 " paste from 0 register Normal Mode and Visual Mode
 nnoremap <space>p "0p
-vnoremap <space>p dh"0p
 
 " shortcut to home row global marks
 nnoremap <space>a `A
@@ -21,17 +20,25 @@ vnoremap <space>j 10j
 vnoremap <space>k 10k
 
 " toggle set paste
-nnoremap <space>sp :set paste!<CR>
+nnoremap <space>v :set paste!<CR>
 
 " from insert <c-f> and <c-b> move the cursor forward and backwards
 inoremap <c-f> <c-o>l
 inoremap <c-b> <c-o>h
-
-" toggle spell check
-nnoremap <space>s :set spell!<CR>
 
 " window nav
 nnoremap <space>wj :wincmd j<CR>
 nnoremap <space>wk :wincmd k<CR>
 nnoremap <space>wh :wincmd h<CR>
 nnoremap <space>wl :wincmd l<CR>
+
+" Nerdtree CMD, allows for traveling witout saving buffer, avoiding the force split, :wa to then save all buffers
+nnoremap <space>e :buffer! NERD_tree_1<CR>
+
+" Adds return brackets
+inoremap {<cr> {<cr>}<c-o>O
+inoremap [<cr> [<cr>]<c-o>O
+inoremap (<cr> (<cr>)<c-o>O
+
+" clear highlight
+nnoremap <space>/ :nohlsearch<CR>
