@@ -26,6 +26,12 @@ nnoremap <space>v :set paste!<CR>i
 inoremap <c-f> <c-o>l
 inoremap <c-b> <c-o>h
 
+" window nav
+nnoremap <space>wj :wincmd j<CR>
+nnoremap <space>wk :wincmd k<CR>
+nnoremap <space>wh :wincmd h<CR>
+nnoremap <space>wl :wincmd l<CR>
+
 " Nerdtree CMD, allows for traveling witout saving buffer, avoiding the force split, :wa to then save all buffers
 nnoremap <space>e :buffer! NERD_tree_1<CR>
 
