@@ -23,6 +23,7 @@ set number
 set tabstop=4 shiftwidth=4 expandtab
 set backspace=indent,eol,start
 set hlsearch
+set laststatus=2
 
 " Gitgutter sidebar set to clear 
 highlight clear SignColumn
