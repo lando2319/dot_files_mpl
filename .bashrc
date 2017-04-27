@@ -16,6 +16,9 @@ alias gd="git diff"
 # git script to show status and prompt to commit everything
 alias gm="sh ~/dot_files_mpl/shellScripts/gitCommitScript.sh"
 
+# deploy firebase functions
+alias fd="firebase deploy --only functions"
+
 # shortcut to open last created file in vim
 alias vl="vim \`ls -tr | tail -1\`"
 

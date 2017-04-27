@@ -12,6 +12,9 @@
 " set options
 set hlsearch
 
+" set highlighted text color
+highlight Search guibg=blue
+
 " Go to next tab, Go to previous tab
 nnoremap gT :xccmd selectPreviousTab<CR>
 nnoremap gt :xccmd selectNextTab<CR>
@@ -39,7 +42,6 @@ inoremap jk <esc>
 
 " paste from 0 register Normal Mode and Visual Mode
 nnoremap <space>p "0p
-vnoremap <space>p dh"0p
 
 " shortcut to Home Row Global Marks
 nnoremap <space>a `A

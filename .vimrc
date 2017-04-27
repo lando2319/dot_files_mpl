@@ -24,6 +24,7 @@ set tabstop=4 shiftwidth=4 expandtab
 set backspace=indent,eol,start
 set hlsearch
 set laststatus=2
+hi Search ctermbg=LightCyan ctermfg=Red
 
 " Gitgutter sidebar set to clear 
 highlight clear SignColumn
