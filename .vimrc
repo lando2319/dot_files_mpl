@@ -18,6 +18,8 @@ filetype plugin indent on
 let g:ycm_key_list_select_completion = ['<c-j>']
 let g:ycm_key_list_previous_completion = ['<c-k>']
 
+let g:ctrlp_custom_ignore = {'dir': 'node_modules'}
+
 " set preferences
 set number
 set tabstop=4 shiftwidth=4 expandtab
@@ -34,6 +36,9 @@ map <space>n :NERDTreeToggle<CR>
 
 " Close on open
 let NERDTreeQuitOnOpen = 1
+
+" Ignore npm modules
+set wildignore+=./functions/node_modules/**,./node_modules/**
 
 " --------- Mike Land Originals --------- 
 source ~/dot_files_mpl/originalVimMappings/.vimrc

@@ -45,3 +45,13 @@ nnoremap <space>/ :nohlsearch<CR>
 
 " write file
 nnoremap <space>w :w<CR>
+
+" change to true
+nnoremap <space>t ciwtrue<ESC>
+
+" change to false
+nnoremap <space>r ciwfalse<ESC>
+
+" next occurance of global search
+nnoremap <space>] :cn
+nnoremap <space>[ :cp
