@@ -30,3 +30,6 @@ alias removeSwpFiles="git ls-files | grep '\.swp$' | xargs git rm"
 
 # show last 5 files
 alias lst="ls -1t | head -5"
+
+# shortcut to node app
+alias gf="cd ~/newDay/newChangEd/changEd-nodeJS"

@@ -18,7 +18,7 @@ filetype plugin indent on
 let g:ycm_key_list_select_completion = ['<c-j>']
 let g:ycm_key_list_previous_completion = ['<c-k>']
 
-let g:ctrlp_custom_ignore = {'dir': 'node_modules'}
+let g:ctrlp_custom_ignore = {'dir': 'node_modules\|invoices'}
 
 " set preferences
 set number
