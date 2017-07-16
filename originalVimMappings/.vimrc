@@ -53,5 +53,5 @@ nnoremap <space>t ciwtrue<ESC>
 nnoremap <space>r ciwfalse<ESC>
 
 " next occurance of global search
-nnoremap <space>] :cn
-nnoremap <space>[ :cp
+nnoremap <space>] :cn<CR>
+nnoremap <space>[ :cp<CR>
