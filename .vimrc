@@ -12,8 +12,6 @@ call vundle#end()
 " sets up pathogen
 execute pathogen#infect()
 syntax on
-set t_Co=256
-colorscheme minimalist
 filetype plugin indent on
 
 " YouCompleteMe Next/Previous Suggestion
