@@ -6,9 +6,6 @@ if [ -f ~/.git-completion.bash ]; then
     . ~/.git-completion.bash
 fi
 
-# runs Ruby Web Server
-alias serverActual="ruby -r webrick -e \"s = WEBrick::HTTPServer.new(:Port => 8000, :DocumentRoot => Dir.pwd); trap('INT') { s.shutdown }; s.start\""
-
 # shortcut for git commands
 alias gs="git status"
 alias gd="git diff"
