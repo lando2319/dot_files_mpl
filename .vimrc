@@ -40,5 +40,8 @@ let NERDTreeQuitOnOpen = 1
 " Ignore npm modules
 set wildignore+=./functions/node_modules/**,./node_modules/**
 
+" removes preview window
+set completeopt-=preview
+
 " --------- Mike Land Originals --------- 
 source ~/dot_files_mpl/originalVimMappings/.vimrc
