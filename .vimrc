@@ -7,7 +7,6 @@ filetype off                  " required by Pathogen
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 Plugin 'Valloric/YouCompleteMe'
-Plugin 'cdmedia/itg_flat_vim'
 call vundle#end()
 
 " sets up pathogen
@@ -20,8 +19,6 @@ let g:ycm_key_list_select_completion = ['<c-j>']
 let g:ycm_key_list_previous_completion = ['<c-k>']
 
 let g:ctrlp_custom_ignore = {'dir': 'node_modules\|invoices'}
-
-colorscheme itg_flat
 
 " set preferences
 set number
@@ -42,6 +39,9 @@ let NERDTreeQuitOnOpen = 1
 
 " Ignore npm modules
 set wildignore+=./functions/node_modules/**,./node_modules/**
+
+" removes preview window
+set completeopt-=preview
 
 " --------- Mike Land Originals --------- 
 source ~/dot_files_mpl/originalVimMappings/.vimrc
