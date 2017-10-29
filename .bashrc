@@ -13,9 +13,6 @@ alias gd="git diff"
 # git script to show status and prompt to commit everything
 alias gm="sh ~/dot_files_mpl/shellScripts/gitCommitScript.sh"
 
-# deploy firebase functions
-alias fd="firebase deploy --only functions"
-
 # shortcut to open last created file in vim
 alias vl="vim \`ls -tr | tail -1\`"
 
@@ -28,5 +25,8 @@ alias removeSwpFiles="git ls-files | grep '\.swp$' | xargs git rm"
 # show last 5 files
 alias lst="ls -1t | head -5"
 
-# shortcut to node app
+# shortcut to Node app
 alias gf="cd ~/newDay/newChangEd/changEd-nodeJS"
+
+# shortcut to Swift app
+alias gfs="cd ~/newDay/newChangEd/changEd-Swift"
