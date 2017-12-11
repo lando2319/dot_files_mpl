@@ -64,3 +64,7 @@ nnoremap <space>/ :nohl<CR>
 
 " add bloak line below
 nnoremap <space>o o<ESC>
+
+" T/F shortcuts
+nnoremap <space>t ciwtrue<esc>
+nnoremap <space>r ciwfalse<esc>
