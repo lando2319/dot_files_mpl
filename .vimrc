@@ -39,7 +39,7 @@ map <space>n :NERDTreeToggle<CR>
 let NERDTreeQuitOnOpen = 1
 
 " Ignore npm modules
-set wildignore+=./functions/node_modules/**,./node_modules/**
+set wildignore+=functions/node_modules/**,node_modules/**
 
 " removes preview window
 set completeopt-=preview
