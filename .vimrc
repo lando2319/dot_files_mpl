@@ -46,3 +46,4 @@ set completeopt-=preview
 
 " --------- Mike Land Originals --------- 
 source ~/dot_files_mpl/originalVimMappings/.vimrc
+source ~/dot_files_mpl/vimScripts/vimScriptActual.vim
