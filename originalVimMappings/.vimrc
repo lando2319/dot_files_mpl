@@ -43,9 +43,6 @@ inoremap (<cr> (<cr>)<c-o>O
 " clear highlight
 nnoremap <space>/ :nohlsearch<CR>
 
-" write file
-nnoremap <space>w :w<CR>
-
 " change to true
 nnoremap <space>t ciwtrue<ESC>
 
