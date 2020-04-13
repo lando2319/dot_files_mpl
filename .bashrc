@@ -26,7 +26,7 @@ alias removeSwpFiles="git ls-files | grep '\.swp$' | xargs git rm"
 alias lst="ls -1t | head -5"
 
 # shortcut to Node app
-alias gf="cd ~/newDay/newChangEd/changEd-nodeJS"
+alias gf="cd ~/newDay/newChangEd/changed-javascript"
 
 # shortcut to Shared Models app
 alias gfm="cd ~/newDay/newChangEd/changEd-nodeJS/functions/modelsActual/sharedModels"

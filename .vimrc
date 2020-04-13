@@ -14,6 +14,8 @@ execute pathogen#infect()
 syntax on
 filetype plugin indent on
 
+filetype indent on
+
 " YouCompleteMe Next/Previous Suggestion
 let g:ycm_key_list_select_completion = ['<c-j>']
 let g:ycm_key_list_previous_completion = ['<c-k>']
@@ -39,7 +41,7 @@ map <space>n :NERDTreeToggle<CR>
 let NERDTreeQuitOnOpen = 1
 
 " Ignore npm modules
-set wildignore+=functions/node_modules/**,node_modules/**
+set wildignore+=**/node_modules/**,firebase-debug.log,**/build/**
 
 " removes preview window
 set completeopt-=preview

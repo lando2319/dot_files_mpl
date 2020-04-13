@@ -43,11 +43,8 @@ inoremap (<cr> (<cr>)<c-o>O
 " clear highlight
 nnoremap <space>/ :nohlsearch<CR>
 
-" change to true
-nnoremap <space>t ciwtrue<ESC>
-
-" change to false
-nnoremap <space>r ciwfalse<ESC>
+" Run current file as node
+nnoremap <space>r :!/usr/local/bin/node %<CR>
 
 " next occurance of global search
 nnoremap <space>] :cn<CR>
