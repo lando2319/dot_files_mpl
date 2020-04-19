@@ -44,7 +44,8 @@ inoremap (<cr> (<cr>)<c-o>O
 nnoremap <space>/ :nohlsearch<CR>
 
 " Run current file as node
-nnoremap <space>r :!/usr/local/bin/node %<CR>
+nnoremap <space>r :w<CR>:!/usr/local/bin/node %<CR>
+nnoremap <space>t :w<CR>:!/Users/mikeland/npm-global/bin/npm test<CR>
 
 " next occurance of global search
 nnoremap <space>] :cn<CR>

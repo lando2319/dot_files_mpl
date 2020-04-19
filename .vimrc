@@ -6,7 +6,14 @@ filetype off                  " required by Pathogen
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
+Plugin 'VundleVim/Vundle.vim'
 Plugin 'Valloric/YouCompleteMe'
+Plugin 'ctrlpvim/ctrlp.vim'
+Plugin 'preservim/nerdtree'
+Plugin 'tomtom/tcomment_vim'
+Plugin 'airblade/vim-gitgutter'
+Plugin 'tpope/vim-surround'
+Plugin 'wookiehangover/jshint.vim'
 call vundle#end()
 
 " sets up pathogen
