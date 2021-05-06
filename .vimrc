@@ -13,7 +13,6 @@ Plugin 'preservim/nerdtree'
 Plugin 'tomtom/tcomment_vim'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'tpope/vim-surround'
-Plugin 'wookiehangover/jshint.vim'
 call vundle#end()
 
 " sets up pathogen

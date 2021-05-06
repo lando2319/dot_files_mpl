@@ -16,11 +16,11 @@ set hlsearch
 highlight Search guibg=blue
 
 " Go to next tab, Go to previous tab
-nnoremap gT :xccmd selectPreviousTab<CR>
-nnoremap gt :xccmd selectNextTab<CR>
+" nnoremap gT :xccmd selectPreviousTab<CR>
+" nnoremap gt :xccmd selectNextTab<CR>
 
 " Comment out lines selected, Comment out current line
-vnoremap gcc :xcmenucmd Comment Selection<CR> 
+vnoremap gc :xcmenucmd Comment Selection<CR> 
 nnoremap gcc :xcmenucmd Comment Selection<CR> 
 
 " Comment out current and next line, Comment out current and previous line
@@ -29,7 +29,7 @@ nnoremap gcj jVk:xcmenucmd Comment Selection<CR>
 nnoremap gck kVj:xcmenucmd Comment Selection<CR>
 
 " Show hide Navigator
-nnoremap <space>n :xccmd toggleNavigatorsVisibility<CR>
+nnoremap <space>n :xcmenucmd Hide Navigator<CR>
 
 " Mike Land Original Mappings
 " Mapping to emulate surround.vim
@@ -44,10 +44,10 @@ inoremap jk <esc>
 nnoremap <space>p "0p
 
 " shortcut to Home Row Global Marks
-nnoremap <space>a `A
-nnoremap <space>s `S
-nnoremap <space>d `D
-nnoremap <space>f `F
+" nnoremap <space>a `A
+" nnoremap <space>s `S
+" nnoremap <space>d `D
+" nnoremap <space>f `F
 
 " next issue, previous issue
 nnoremap <space>l :ni<CR>
@@ -64,7 +64,3 @@ nnoremap <space>/ :nohl<CR>
 
 " add bloak line below
 nnoremap <space>o o<ESC>
-
-" T/F shortcuts
-nnoremap <space>t ciwtrue<esc>
-nnoremap <space>r ciwfalse<esc>
