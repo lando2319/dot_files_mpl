@@ -16,8 +16,8 @@ set hlsearch
 highlight Search guibg=blue
 
 " Go to next tab, Go to previous tab
-" nnoremap gT :xccmd selectPreviousTab<CR>
-" nnoremap gt :xccmd selectNextTab<CR>
+nnoremap gT :xcmenucmd Show Previous Tab<CR>
+nnoremap gt :xcmenucmd Show Next Tab<CR>
 
 " Comment out lines selected, Comment out current line
 vnoremap gc :xcmenucmd Comment Selection<CR> 
@@ -29,7 +29,8 @@ nnoremap gcj jVk:xcmenucmd Comment Selection<CR>
 nnoremap gck kVj:xcmenucmd Comment Selection<CR>
 
 " Show hide Navigator
-nnoremap <space>n :xcmenucmd Hide Navigator<CR>
+nnoremap <space>n :xcmenucmd Show Navigator<CR>
+" nnoremap <space>n <C-0><CR>
 
 " Mike Land Original Mappings
 " Mapping to emulate surround.vim

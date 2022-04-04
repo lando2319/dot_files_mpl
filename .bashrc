@@ -36,3 +36,6 @@ alias gfs="cd ~/newDay/newChangEd/changEd-Swift"
 
 # shortcut to Lookup Tool
 alias gfl="cd ~/newDay/newChangEd/changEd-lookup-tool"
+
+# shortcut to Craps Game
+alias gc="cd ~/newDay/crapsGame/learnCrapsYoFREE"
