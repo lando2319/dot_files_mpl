@@ -39,3 +39,9 @@ alias gfl="cd ~/newDay/newChangEd/changEd-lookup-tool"
 
 # shortcut to Craps Game
 alias gc="cd ~/newDay/crapsGame/learnCrapsYoFREE"
+
+# start q2 ssh
+alias q2="ssh sdk-shared-dev.q2devstack.com -l mike@changedapps.com"
+
+# Kill ports
+alias killports='bash backend/shellScripts/killEmulationPorts.sh'
