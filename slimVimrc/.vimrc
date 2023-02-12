@@ -11,3 +11,5 @@ inoremap jk <esc>
 
 set tabstop=4 shiftwidth=4 expandtab
 
+filetype indent on
+
