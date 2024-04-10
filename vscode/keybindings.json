@@ -1,0 +1,142 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+    {
+        "key": "up",
+        "command": "-selectPrevSuggestion",
+        "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+    },
+    {
+        "key": "ctrl+j",
+        "command": "selectNextSuggestion",
+        "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+    },
+    {
+        "key": "cmd+down",
+        "command": "-selectNextSuggestion",
+        "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+    },
+    {
+        "key": "ctrl+k",
+        "command": "selectPrevSuggestion",
+        "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+    },
+    {
+        "key": "cmd+up",
+        "command": "-selectPrevSuggestion",
+        "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+    },
+    {
+        "key": "ctrl+j",
+        "command": "workbench.action.quickOpenSelectNext",
+        "when": "inQuickOpen"
+    },
+    {
+        "key": "ctrl+n",
+        "command": "-workbench.action.quickOpenSelectNext",
+        "when": "inQuickOpen"
+    },
+    {
+        "key": "ctrl+k",
+        "command": "workbench.action.quickOpenSelectPrevious",
+        "when": "inQuickOpen"
+    },
+    {
+        "key": "ctrl+p",
+        "command": "-workbench.action.quickOpenSelectPrevious",
+        "when": "inQuickOpen"
+    },
+    {
+        "key":"ctrl+alt+cmd+q",
+        "command":"workbench.action.tasks.runTask",
+        "args": "Run Emulator with Node.js",
+        "when":"editorTextFocus"
+    },
+    {
+        "key":"ctrl+alt+cmd+w",
+        "command":"workbench.action.tasks.runTask",
+        "args": "Run with Node.js",
+        "when":"editorTextFocus"
+    },
+    {
+        "key":"ctrl+alt+cmd+e",
+        "command":"workbench.action.tasks.runTask",
+        "args": "npm test:backend",
+        "when":"editorTextFocus"
+    },
+    {
+        "key":"ctrl+alt+cmd+r",
+        "command":"workbench.action.tasks.runTask",
+        "args": "npm test:admin-app",
+        "when":"editorTextFocus"
+    },
+    {
+        "key":"ctrl+alt+cmd+t",
+        "command":"workbench.action.tasks.runTask",
+        "args": "npm test:web-app",
+        "when":"editorTextFocus"
+    },
+    {
+        "key":"ctrl+alt+cmd+y",
+        "command":"workbench.action.tasks.runTask",
+        "args": "npm test:web-app-functions",
+        "when":"editorTextFocus"
+    },
+    {
+        "key":"ctrl+alt+cmd+u",
+        "command":"workbench.action.tasks.runTask",
+        "args": "npm test",
+        "when":"editorTextFocus"
+    },
+    {
+        "key":"ctrl+alt+cmd+i",
+        "command":"workbench.action.tasks.runTask",
+        "args": "npm test:postman",
+        "when":"editorTextFocus"
+    },
+    {
+        "key":"ctrl+alt+cmd+o",
+        "command":"workbench.action.tasks.runTask",
+        "args": "npm test:integration",
+        "when":"editorTextFocus"
+    },
+    {
+        "key":"ctrl+alt+cmd+p",
+        "command":"workbench.action.tasks.runTask",
+        "args": "npm test:q2-app",
+        "when":"editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+cmd+a",
+        "command": "git.sync"
+    },
+    {
+        "key":"ctrl+alt+cmd+s",
+        "command":"workbench.action.tasks.runTask",
+        "args": "Run Wildcard",
+        "when":"editorTextFocus"
+    }, 
+    {
+        "key":"ctrl+alt+cmd+d",
+        "command":"workbench.action.tasks.runTask",
+        "args": "Run with Node.js, write to runtimeLog",
+        "when":"editorTextFocus"
+    }, 
+    {
+        "key":"ctrl+alt+cmd+f",
+        "command":"workbench.action.tasks.runTask",
+        "args": "Run with Bash",
+        "when":"editorTextFocus"
+    }, 
+    {
+        "key":"ctrl+alt+cmd+g",
+        "command":"workbench.action.tasks.runTask",
+        "args": "npm test:admin-app-functions",
+        "when":"editorTextFocus"
+    }, 
+    {
+        "key":"ctrl+alt+cmd+h",
+        "command":"workbench.action.tasks.runTask",
+        "args": "Run with Python",
+        "when":"editorTextFocus"
+    }
+]

@@ -1,0 +1,13 @@
+{
+    "label": "Run with Node.js",
+    "type": "shell",
+    "command": "node",
+    "args": [
+        "${file}"
+    ],
+    "problemMatcher": [],
+    "group": {
+        "kind": "build",
+        "isDefault": true
+    }
+}
