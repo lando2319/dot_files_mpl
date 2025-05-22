@@ -28,14 +28,8 @@ alias lst="ls -1t | head -5"
 # shortcut to Node app
 alias gf="cd ~/newDay/newChangEd/changed-javascript"
 
-# shortcut to Shared Models app
-alias gfm="cd ~/newDay/newChangEd/changEd-nodeJS/functions/modelsActual/sharedModels"
-
-# shortcut to Swift app
-alias gfs="cd ~/newDay/newChangEd/changEd-Swift"
-
-# shortcut to Lookup Tool
-alias gfl="cd ~/newDay/newChangEd/changEd-lookup-tool"
+# shortcut to Infinity Racer
+alias gr="cd /Users/mikeland/newDay/infinityRacerApp"
 
 # shortcut to Craps Game
 alias gc="cd ~/newDay/crapsGame/learnCrapsYoFREE"
