@@ -7,6 +7,8 @@ nnoremap <space>/ :nohlsearch<CR>
 nnoremap <space>j 10j
 nnoremap <space>k 10k
 
+nnoremap <space>w :set nowrap<CR>
+
 inoremap jk <esc>
 
 set tabstop=4 shiftwidth=4 expandtab
